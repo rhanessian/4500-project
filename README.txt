@@ -13,5 +13,5 @@ WebSite bootstrap, and HTML header example code used and modified from W3Schools
 
 We are specifically using and basing our code off of the W3Schools' "Webpage" template. 
 
-and W3schools,com, https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_temp_webpage&stacked=h
+and W3schools.com, https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_temp_webpage&stacked=h
 Date Last Accessed: April 14, 2023.
