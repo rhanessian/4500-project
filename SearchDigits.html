@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+
+
+
+Language: HTML
+Programmer: Rachel Spearing
+Date Created: May 2, 2023
+Description: This file has a text box you can type anything in. 
+
+References: <!--WebSite bootstrap, and HTML header example code used and modified from
+W3Schools' Bootstrap Templates, w3schools.com,  https://www.w3schools.com/bootstrap/bootstrap_templates.asp
+, specifically using the W3Schools' "Webpage" template.
+
+and W3schools,com, https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_temp_webpage&stacked=h
+
+
+Reference: old code from Rachel Spearing, registration page,
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+
+  <!-- Navigation bar code from WebSite bootstrap, and HTML header example code used and modified from
+W3Schools' Bootstrap Templates, w3schools.com,  https://www.w3schools.com/bootstrap/bootstrap_templates.asp
+, specifically using the W3Schools' "Webpage" template.
+
+and W3schools,com, https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_temp_webpage&stacked=h-->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ 
+  <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse" id="navBar">
+      <ul class="nav navbar-nav">
+          <!-- based on old CS HTML code Rachel Spearing. -->
+          <li> <a href="./index.html" target="_blank" >Game</a></li>
+        <li><a href="./MoreInfo.html" target="_blank">More Info</a></li>
+        <li><a href="./SearchDigits.html" target="_blank">Search Digits</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+  <!-- code Based on registration page code, an old project by Rachel Spearing -->
+         <h1> Search For Your Number </h1>
+        <label for="SearchNumber">Type your number inside the box: </label>
+        <input id="SearchNumber" type="text" name="SearchNumber"/>
+        
+    </body>
+</html>

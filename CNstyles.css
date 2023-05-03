@@ -1,0 +1,37 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* Language: CSS
+    DateCreated: May 2, 2023, 6:20:18 PM
+    Author     : Rachel Spearing
+Description: The CSS style sheet, which should change the style of html code, 
+but does not seem to be working
+Reference: Based on old project three website code css code, by Rachel Spearing,
+Accessed May 2, 2023.
+
+*/
+/*.randomNumber {
+  font-size: 12px;
+  padding-left: 30px;
+} */
+
+//Reference to make font size bigger: https://www.w3schools.com/css/css_font_size.asp
+
+/*Example of Css code changing color code: 
+
+https://www.w3schools.com/css/tryit.asp?filename=trycss_color_bg
+
+
+Used for CSS Text Formatting: CSS Text, w3Schools,
+
+https://www.w3schools.com/css/css_text.asp
+
+*/
+
+
+p {
+    font-size: 30px;
+    padding-left: 30px;
+}
