@@ -110,7 +110,8 @@ and https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_temp_webpage&st
         
         <!--  navigation bar code from W3Schools' Bootstrap Templates, w3schools.com,  https://www.w3schools.com/bootstrap/bootstrap_templates.asp
 W3schools.com, and https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_temp_webpage&stacked=h -->
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <!--Navigation bar for navigating website -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   
@@ -134,19 +135,20 @@ W3schools.com, and https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_
         <!--source for code for generating random number: https://www.w3schools.com/jsref/jsref_random.asp
 // https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_random4 
 
-        
-        
-        
-        
         Code for onclick: https://www.w3schools.com/tags/att_onclick.asp
         https://www.w3schools.com/tags/att_onclick.asp -
+        
+          Refenerce for onclick code: https://www.w3schools.com/tags/att_onclick.asp -->
+        
+        
         -->
 <p id="randomNumber" onclick="pickNumber()"> </p>
 
 <script>
+    //sets number to random number
     let userNumber = Math.floor(Math.random() * 9);
     document.getElementById("randomNumber").innerHTML = userNumber;
-    
+    //Changes number to green when clicked
     function pickNumber(userNumber){  
             document.getElementById("randomNumber").style.color = "green";
 
@@ -158,9 +160,7 @@ W3schools.com, and https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_
     
   
 
-        <!-- https://www.w3schools.com/tags/att_onclick.asp -->
-        
-        
+  
         
     </body>
 </html>
