@@ -6,7 +6,7 @@ Date Last Modified: May 2, 2023.
 Description: This file is the code for the basic template of our Picking Numbers website
 
 
-References: 
+References:
 
 
 
@@ -17,7 +17,7 @@ W3Schools' Bootstrap Templates, w3schools.com,  https://www.w3schools.com/bootst
 and W3schools,com, https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_temp_webpage&stacked=h
 
 
-Old Project code Registration page by Rachel Spearing used. 
+Old Project code Registration page by Rachel Spearing used.
 
 WebSite bootstrap, and HTML header example code used and modified from
 W3Schools' Bootstrap Templates, w3schools.com, https://www.w3schools.com/bootstrap/bootstrap_templates.asp, specifically using the W3Schools' "Webpage" template.
@@ -46,7 +46,7 @@ https://www.w3schools.com/html/html_links.asp done.
 
 
 
-Used to make Css font-size bigger: CSS Font Size, w3Schools, https://www.w3schools.com/css/css_font_size.asp 
+Used to make Css font-size bigger: CSS Font Size, w3Schools, https://www.w3schools.com/css/css_font_size.asp
 
 
 CSS Font-size example code: w3Schools, https://www.w3schools.com/css/tryit.asp?filename=trycss_font-size_px
@@ -66,7 +66,7 @@ Onclick example code with button: w3Schools,
 https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_ev_onclick
 
 
-Example of Css code changing color code only one: 
+Example of Css code changing color code only one:
 
 https://www.w3schools.com/css/tryit.asp?filename=trycss_color_bg
 
@@ -90,7 +90,7 @@ and open the template in the editor.
 
 <!--Website bootstrap, and HTML header example code used and modified from
 W3Schools' Bootstrap Templates, w3schools.com,  https://www.w3schools.com/bootstrap/bootstrap_templates.asp
-W3schools.com, 
+W3schools.com,
 
 and https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_temp_webpage&stacked=h
 
@@ -133,34 +133,47 @@ W3schools.com, and https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_
 
         
         <!--source for code for generating random number: https://www.w3schools.com/jsref/jsref_random.asp
-// https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_random4 
+// https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_random4
 
         Code for onclick: https://www.w3schools.com/tags/att_onclick.asp
         https://www.w3schools.com/tags/att_onclick.asp -
         
-          Refenerce for onclick code: https://www.w3schools.com/tags/att_onclick.asp -->
-        
-        
-        -->
+          Reference for onclick code: https://www.w3schools.com/tags/att_onclick.asp -->
+       
 <p id="randomNumber" onclick="pickNumber()"> </p>
-
+<p id="randomNumber2" onclick="pickNumber()"> </p>
+<p id="randomNumber3" onclick="pickNumber()"> </p>
+<p id="randomNumber4" onclick="pickNumber()"> </p>
+<p id="randomNumber5" onclick="pickNumber()"> </p>
 <script>
     //sets number to random number
     let userNumber = Math.floor(Math.random() * 9);
+    let userNumber2 = Math.floor(Math.random() * 9);
+    let userNumber3 = Math.floor(Math.random() * 9);
+    let userNumber4 = Math.floor(Math.random() * 9);
+    let userNumber5 = Math.floor(Math.random() * 9);
+    
+    
     document.getElementById("randomNumber").innerHTML = userNumber;
-    //Changes number to green when clicked
-    function pickNumber(userNumber){  
+    document.getElementById("randomNumber2").innerHTML = userNumber2;
+    document.getElementById("randomNumber3").innerHTML = userNumber3;
+    document.getElementById("randomNumber4").innerHTML = userNumber4;
+    document.getElementById("randomNumber5").innerHTML = userNumber5;
+    //Changes number to colors when they arew clicked
+    function pickNumber(userNumber){
             document.getElementById("randomNumber").style.color = "green";
-
+            document.getElementById("randomNumber2").style.color = "red";
+            document.getElementById("randomNumber3").style.color = "purple";
+            document.getElementById("randomNumber4").style.color = "orange";
+            document.getElementById("randomNumber5").style.color = "yellow";
     }
     
 </script>
-        
-
-    
+ 
   
 
   
         
     </body>
 </html>
+
