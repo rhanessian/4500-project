@@ -12,7 +12,7 @@ Old Project code Registration page by Rachel Spearing used.
 WebSite bootstrap, and HTML header example code used and modified from
 W3Schools' Bootstrap Templates, w3schools.com, https://www.w3schools.com/bootstrap/bootstrap_templates.asp, specifically using the W3Schools' "Webpage" template.
 
-and W3schools,com, https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_temp_webpage&stacked=h
+and W3schools.com, https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_temp_webpage&stacked=h
 
 
 
