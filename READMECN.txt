@@ -52,7 +52,7 @@ OnClick example code, click to change color, click to change p element: w3School
 https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_ev_onclick2
 
 
-O'clock example code with button: w3Schools,
+OnClick example code with button: w3Schools,
 https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_ev_onclick
 
 
