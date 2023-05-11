@@ -1,9 +1,9 @@
 README
 
 Date created: May 2,2023
-Date Last Modified: May 2, 2023
+Date Last Modified: May 10, 2023
 Description:
-This project has three links to pages: Game, More Info, and Search Digits. Game will allow you to click a number and have it turn green. More Info has a description of the inspiration, and a clickable link. Search Digits has a search box you can type in, but no further functionality.
+This project has three links to pages: Game, More Info, and Search Digits. Game will allow you to click a randomly-generated number and have it and the four other random numbers around it turn different colors. More Info has a description of the inspiration, and a clickable link. Search Digits has a search box you can type in, but no further functionality.
 
 
 References:
@@ -22,21 +22,21 @@ Used to Link/Add Css sheet to index page: "How To Add CSS, w3Schools, https://ww
 Used to Link/Add Css sheet to index page, Adding Css example code: https://www.w3schools.com/css/tryit.asp?filename=trycss_howto_external
 
 
-Used to provide click ability to the random number in javascript: "HTML onclick Attribute, w3Schools, https://www.w3schools.com/tags/att_onclick.asp Done.
+Used to provide click ability to the random number in javascript: "HTML onclick Attribute, w3Schools, https://www.w3schools.com/tags/att_onclick.asp
 
 
 Used to create a random number between one and nine :JavaScript Math.random(), w3schools
 
-https://www.w3schools.com/jsref/jsref_random.asp. Done.
+https://www.w3schools.com/jsref/jsref_random.asp.
 
 
 Used to add the Youtube Link in the "More Info" page: "HTML Links - Links." w3Schools,
 
-https://www.w3schools.com/html/html_links.asp done.
+https://www.w3schools.com/html/html_links.asp
 
 
 
-Used to make Css font-size bigger: CSS Font Size, w3Schools, https://www.w3schools.com/css/css_font_size.asp Done.
+Used to make Css font-size bigger: CSS Font Size, w3Schools, https://www.w3schools.com/css/css_font_size.asp
 
 
 CSS Font-size example code: w3Schools, https://www.w3schools.com/css/tryit.asp?filename=trycss_font-size_px
