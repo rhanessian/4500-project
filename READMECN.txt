@@ -25,7 +25,7 @@ Used to Link/Add Css sheet to index page, Adding Css example code: https://www.w
 Used to provide click ability to the random number in javascript: "HTML onclick Attribute, w3Schools, https://www.w3schools.com/tags/att_onclick.asp
 
 
-Used to create a random number between one and nine :JavaScript Math.random(), w3schools
+Used to create a random number between one and nine :JavaScript Math.random(), w3schools,
 
 https://www.w3schools.com/jsref/jsref_random.asp.
 
