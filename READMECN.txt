@@ -56,7 +56,7 @@ OnClick example code with button: w3Schools,
 https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_ev_onclick
 
 
-Example of Css code changing color code only one: 
+Example of Css code changing color code only one: w3Schools,
 
 https://www.w3schools.com/css/tryit.asp?filename=trycss_color_bg
 
